@@ -231,7 +231,7 @@ function App() {
 	// Default
 	// const badgeIcon = "/badge_icon.png";
 
-	const twitterLink = "";
+	const linkedln = "https://www.linkedin.com/in/phnogueira";
 	const awardIconLink = "";
 
 	const perfilIconLink = "";
@@ -336,9 +336,9 @@ function App() {
 						</div>
 
 						<div className="buttons">
-							<button onClick={() => (window.location.href = twitterLink)}>
+							<a href={linkedln} target="_blank">
 								Entrar em contato
-							</button>
+							</a>
 							
 								<img className="award" src="award_icon.svg" alt="" />
 							

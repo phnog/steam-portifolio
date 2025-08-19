@@ -158,7 +158,7 @@ const SteamDetails = styled.div`
                     display: flex;
                     align-items: center;
 
-                    button {
+                    a {
                         background: var(--transparent);
                         color: var(--gray);
                         padding: 0.5rem 0.6rem;

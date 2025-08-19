@@ -258,9 +258,9 @@ function SteamBadgePage() {
                         </span>
                     </div>
                     <div className="task">
-                        <img src="sql.png" alt="task" />
+                        <img src="react.png" alt="task" />
                         <span>
-                            SQL
+                            ReactJS
                         </span>
                     </div>
                     <div className="task">
