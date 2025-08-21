@@ -1,4 +1,5 @@
 {
+	"homepage": "https://phnog.github.io/steam-portifolio",
 	"name": "website-steamfolio",
 	"private": true,
 	"version": "1.0.0",
@@ -12,7 +13,8 @@
 		"create:mylint": "bunx --bun biome init && bun mylint",
 		"mylint": "bunx biome format --write",
 		"commit": "git pull && bun run vercel && bun mylint && read -p 'Descriptions Commit: ' message && git add . && echo -n \"$message - \" && node getTime.js | xargs -I {} git commit -m \"$message - {}\" && git push",
-		"clean": "rm -rf node_modules && bun install"
+		"clean": "rm -rf node_modules && bun install",
+		"deploy": "vite build && gh-pages -d dist"
 	},
 	"dependencies": {
 		"@types/bun": "^1.2.17",
@@ -36,6 +38,7 @@
 		"eslint": "^8.57.1",
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-plugin-react-refresh": "^0.4.20",
+		"gh-pages": "^6.3.0",
 		"typescript": "^5.8.3",
 		"vite": "^5.4.19"
 	}

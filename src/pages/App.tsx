@@ -369,29 +369,29 @@ function App() {
 						<div className="groupDetails">
 							<div className="badges">
 								<img
-									src="/js.png"
+									src="js.png"
 									alt="BadgeIcon"
 									title="Desenvolvedor JavaScript"
 								/>
 								<img
-									src="/ts.png"
+									src="ts.png"
 									alt="BadgeIcon"
 									title="Desenvolvedor Typescript"
 								/>
 								<img
-									src="/nodejs.png"
+									src="nodejs.png"
 									alt="BadgeIcon"
 									title="Desenvolvedor NodeJS"
 								/>
 
 								<img
-									src="/nestjs.png"
+									src="nestjs.png"
 									alt="BadgeIcon"
 									title="Experiencia em NestJS"
 								/>
-								<img src="/php.png" alt="BadgeIcon" title="Desenvolvedor PHP" />
+								<img src="php.png" alt="BadgeIcon" title="Desenvolvedor PHP" />
 								<img
-									src="/laravel.png"
+									src="laravel.png"
 									alt="BadgeIcon"
 									title="Desenvolvedor Laravel"
 								/>
